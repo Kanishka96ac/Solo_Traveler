@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Traveler</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link for clip arts  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- The custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+    
+
+</head>
+<body>
+    
+<!-- Header section  -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="index.html" class="brand"><span>SOLO</span> TRAVELER</a>
+
+    <!-- Navigation Bar -->
+
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="book.html">BOOK</a>
+        <a href="packages.html">DESTINATIONS</a>
+        <a href="services.html">SERVICES</a>
+        <a href="gallery.html">GALLERY</a>
+        <a href="#review">REVIEW</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+    </div>
+
+    <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="search here...">
+        <label for="search-bar" class="fas fa-search"></label>
+    </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Sign In</h3>
+        <input type="email" class="box" placeholder="Enter your email ID">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>The Road Best Traveled</h3>
+        <p>“Life is either a daring adventure or nothing at all”</p>
+        <a style="border-radius:2rem;" href="index.html" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/home/home1.mp4"></span>
+        <span class="vid-btn" data-src="images/home/home2.mp4"></span>
+        <span class="vid-btn" data-src="images/home/home3.mp4"></span>
+        <span class="vid-btn" data-src="images/home/home4.mp4"></span>
+        <span class="vid-btn" data-src="images/home/home5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/home/home1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+            <img style="padding-top: 1.5rem; padding-bottom:0 !important;" src="images/bookings.png" alt="">
+        </div>
+        <form action="" style="border-style:double; border-width: 1rem; border-color:#ffa500;">
+            <div>
+                <br><br><p class=".bootkingtext" style="font-size: 2rem; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-weight: bolder; color: brown; font-display: initial;">We Have Over 40 Payment Ways for Locking the Lowest Room Rates. No Credit Card Needed! Read Reviews from Verified Guests to Get the Real Story Before You Book Your Room. Up To 80% Off. 63,000 Cities Worldwide. 100% Real Reviews. No Booking Fees.</p><br><br>
+            </div>
+            <a style="border-radius:2rem;" href="book.html" class="btn">discover more</a>
+        </form>
+    </div>
+</section>
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages" style="margin-top: 10vh; margin-top: 0 !important;" >
+
+    <h1 class="heading">
+        <span>T</span>
+        <span>r</span>
+        <span>a</span>
+        <span>v</span>
+        <span>e</span>
+        <span>l</span>
+        <span class="space"></span>
+        <span>d</span>
+        <span>e</span>
+        <span>s</span>
+        <span>t</span>
+        <span>i</span>
+        <span>n</span>
+        <span>a</span>
+        <span>t</span>
+        <span>i</span>
+        <span>o</span>
+        <span>n</span>
+        <span>s</span>
+    </h1>
+    <br> <br>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/packages/singapore.jpeg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Singapore </h3>
+                <p>The Singapore border remains open to all Singapore citizens and permanent residents.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$140.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/malaysia.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Malaysia </h3>
+                <p>Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $90.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/srilanka.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Sri Lanka </h3>
+                <p>Sri Lanka, formerly known as Ceylon, and officially the Democratic Socialist Republic of Sri Lanka.</p> <br>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $100.00 <span>$120.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/sydney.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Sydney </h3>
+                <p>Sydney, capital of New South Wales and one of Australia's largest cities, is best known for its harbour front Sydney Opera.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $230.00 <span>$240.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/paris.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                <p>The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France.</p> <br>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $120.00 <span>$150.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/hawaii.jpg" alt="">
+            <div class="content">
+                <h3> <i class="fas fa-map-marker-alt"></i> Hawaii </h3>
+                <p>Hawaii is a U.S. state in the Western United States, in the Pacific Ocean about 2,000 miles from the U.S. mainland.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price"> $155.00 <span>$180.00</span> </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <a style="border-radius:2rem;" href="packages.html" class="btn">discover more</a>
+    </div>
+</section>
+
+<!-- packages section ends -->
+
+<!-- services section starts  -->
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+    <br><br>
+
+    <div class="box-container" style="text-align: justify;">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable hotels</h3>
+            <p>The phrase "5-star" can strike fear into any traveller’s wallet, immediately conjuring up images of butler services, hushed restaurants and, most importantly, an extremely pricey bill at the end. </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and Beverage</h3>
+            <p>Food and Beverage Services is a comprehensive textbook that covers all the aspects of food and beverage department starting from understanding of the industry, organisation of the department, menu served, various service procedures, managing cordial relations with customers, along with environmental concerns.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safty Guide</h3>
+            <p>Whatever your reason for traveling internationally, be prepared when it comes to your health and the health of others before, during, and after travel.</p>
+        </div> 
+    </div> <br>
+
+    <div style="text-align: center;">
+        <a style="border-radius:2rem;" href="services.html" class="btn">discover more</a>
+    </div>
+
+</section>
+
+<!-- services section ends -->
+
+<!-- gallery section starts  -->
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+    <br>
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/packages/bali.jpg" alt="">
+            <div class="content">
+                <h3>Travel Gallery</h3>
+                <br><p>“Take only memories, leave only footprints”</p><br>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/china.jpeg" alt="">
+            <div class="content">
+                <h3>Travel Gallery</h3>
+                <br><p>“Take only memories, leave only footprints”</p><br>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="images/packages/egypt.jpg" alt="">
+            <div class="content">
+                <h3>Travel Gallery</h3>
+                <br><p>“Take only memories, leave only footprints”</p><br>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div style="text-align: center;">
+        <a style="border-radius:2rem;" href="gallery.html" class="btn">discover more</a>
+    </div>
+    
+
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <br><br>
+    <div class="swiper-container review-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/reviews/danny.jpg" alt="">
+                    <h3>Danny</h3>
+                    <p>We had a wonderful holiday in Rajasthan which will remain long in the memory. India is a breathtakingly beautiful country full of splendid temples and palaces, noise and colour, peaceful rural scenes and most of all friendly welcoming people. We stayed in some amazing hotels and had brilliant guides who made us feel like friends.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/reviews/veronica.jpg" alt="">
+                    <h3>Veronica</h3>
+                    <p>We are a couple in our mid-60s who had not been to SE Asia before and wanted a hassle-free trip with pre-arranged hotels/ tours/ internal flights etc. We were absolutely thrilled with the itinerary and service provided by Nick @ Experience Travel. In particular , the hotels were just perfect , each one better than the one before ! </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/reviews/pearly.jpg" alt="">
+                    <h3>Pearly</h3>
+                    <p>17 day experience that took us from Bangkok, to Kanchanaburi and from the Golden Triagle to Koh Samui, staying in interesting smaller hotels and resorts. Our very personalised itinerary included all of the things we love, especially getting close to nature. This included several experiences that I doubt we would have been able to find for ourselves.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="images/reviews/suresh.jpg" alt="">
+                    <h3>Suresh</h3>
+                    <p>We started with a few days in Mumbai & ended in Delhi, from where we visited the Taj Mahal. In between we visited Bhopal and Satpura and Kanha National Parks. It was a good mixture given the contrast between the busy cities & quiet beautiful national parks. We particularly liked the peacefulness & variety of wildlife in the countryside.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact style="  style="margin-top: 10vh;">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>u</span>
+        <span>s</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image" style="padding:40px;">
+            <img src="images/contactus.png" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+        
+                
+                <p style="font-size: 2rem; font-style:inherit; font-weight: bold;">Please select your gender:</p> <br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male" style="font-size:1.5rem; font-weight: bolder;">Male</label><br><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" style="font-size:1.5rem; font-weight: bolder;">Female</label><br><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other" style="font-size:1.5rem; font-weight: bolder;">Custom</label><br>
+           
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message" style="border-radius: 2rem; color: black; font-weight: bolder;">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends -->
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p style="text-align: justify; padding-right: 15px;">Since 1990, Solo Traveler has been committed to bringing travelers the best in value and quality travel arrangements. We are passionate about travel and providing corporate travelers high-touch services to facilitate their business travel needs and sharing the world’s wonders on the leisure travel side.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">Malaysia</a>
+            <a href="#">Singapore</a>
+            <a href="#">USA</a>
+            <a href="#">japan</a>
+            <a href="#">france</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html">home</a>
+            <a href="book.html">book</a>
+            <a href="packages.html">Destinations</a>
+            <a href="services.html">services</a>
+            <a href="gallery.html">gallery</a>
+            <a href="contact.html">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">LinkedIn</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> David </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- The custom js file link  -->
+<script src="script.js"></script>
+</body>
+</html>
